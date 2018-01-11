@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    display: block;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: url("../img/bjt.jpg") no-repeat;
+    background-size: cover;
+}
+.cake{
+    width: 200px;
+    height: 200px;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+    background: url("../img/cake.jpg") no-repeat;
+    background-size: 300px 300px;
+    background-position: -50px -50px;
+    position: absolute;
+    top: 50px;
+    right: 350px;
+}
+.cake > a{
+    width: 200px;
+    height: 200px;
+}
+.qiye{
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    font-size: 30px;
+    color: #fff;
+}
+.game{
+    width: 200px;
+    height: 200px;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+    background: url("../img/tm-bg-slide-2.jpg") no-repeat;
+    background-size: 300px 300px;
+    background-position: -50px -50px;
+    position: absolute;
+    top: 320px;
+    right: 350px;
+}
+.game > a{
+    width: 200px;
+    height: 200px;
+}
+.dazi{
+    position: absolute;
+    top: 520px;
+    right: 385px;
+    font-size: 30px;
+    color: #fff;
+}
+.dianshang{
+    width: 200px;
+    height: 200px;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+    background: url("../img/logo.png") no-repeat;
+    background-size: 150px 90px;
+    background-position: 30px 50px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.dianshang > a{
+    width: 200px;
+    height: 200px;
+}
+.dianshang-app{
+    position: absolute;
+    top: 250px;
+    right: 140px;
+    font-size: 30px;
+    color: #fff;
+}
